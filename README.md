@@ -1,7 +1,7 @@
 🚚 Flipkart Logistics SQL Analytics Project
 📌 Project Overview
 
-This project analyzes Flipkart’s logistics performance to uncover delivery delays, route inefficiencies, agent performance gaps, and warehouse optimization opportunities using advanced SQL techniques.
+A data-driven SQL analysis to uncover delivery delays, route inefficiencies, agent performance gaps, and warehouse optimization opportunities within Flipkart Logistics.
 
 📂 Datasets Used
 
@@ -17,40 +17,85 @@ Shipment Tracking
 
 🎯 Business Problem
 
-Logistics delays impact customer satisfaction and operational costs. This project aims to answer:
+Flipkart faces delivery delays affecting customer experience and costs.
+This project solves questions like:
 
-Why do delays happen?
+Where are delays happening?
 
-Which routes or agents perform poorly?
+Which agents or routes perform poorly?
 
-How can performance be optimized?
+How do we optimize performance?
 
 🛠 SQL Skills Demonstrated
 
-✔ Joins
-✔ CTEs
-✔ Window functions
-✔ Subqueries
+✔ Joins & Subqueries
+✔ CTEs & Window Functions
 ✔ Ranking & Aggregation
-✔ Case statements
-✔ Performance insights
+✔ Conditional classification
+✔ Insight-based recommendations
 
-🔍 Key Analysis & Findings
+🔍 Key Insights & Results
 
-Identified delay patterns across routes
+📌 Identified delay patterns by region, warehouse, and route
+📌 Ranked agents by on-time delivery rate
+📌 Highlighted low performers (<80% efficiency)
+📌 Compared productivity gap: Top 5 vs Bottom 5 agents
+📌 Recommended training & workload balancing
 
-Ranked delivery agents by on-time rate
+📊 Deliverables
 
-Flagged agents below 80% performance
+SQL Scripts for all tasks
 
-Compared top vs. bottom agent speed
+Summary report of findings
 
-Suggested workload balancing & training
+Business recommendations
 
-📊 Output & Deliverables
 
-Analytical SQL scripts for each task
 
-Insights summary & improvement actions
+📸 Screenshots
 
-PPT / Report 
+You can include images like:
+
+📌 Route Delay Visualization
+📌 Agent Performance Ranking
+📌 Warehouse Efficiency Overview
+
+Add them in /screenshots/ folder and reference them here using GitHub image embedding.
+
+📝 Project Report / PPT
+
+📌 Download PPT: Upload your file in repository root — example name:
+Flipkart_Logistics_Report.pptx
+
+▶️ How to Run the Project
+Step 1: Load Data
+
+Import CSV datasets into SQL database (MySQL/PostgreSQL/SQL Server).
+
+Step 2: Execute Scripts
+
+Run files from queries/ folder in order:
+
+Data Cleaning
+
+Delay Analysis
+
+Route Optimization
+
+Warehouse Performance
+
+Agent Insights
+
+Step 3: Review Results
+
+Check result tables & reports for insights.
+
+🚀 Impact
+
+This analysis enables performance tracking, training allocation, and route planning to enhance logistics efficiency and customer satisfaction.
+
+👨‍💻 Author
+
+Rahul Thakur
+📧 Email: (add if you want)
+🔗 LinkedIn: (add profile link here)
